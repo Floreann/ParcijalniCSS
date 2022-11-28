@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    flex-direction: column;
+    gap: 2vw;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    font-size: 8vw;
+    
+    text-align: center;
+  }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Kisnaslika.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+    
+  .flex1 {
+    padding: 7vw;
+    color: rgb(250, 249, 250);
+    background-color: rgba(224, 246, 81, 0.346);
+    transform: translateX(70vw);
+    display: flex;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    width: 15vw;
+    height: 15vw;
+    justify-content: center;
+    align-items: center;
+    animation: Drop1 1.5s ease-in-out 0.5s forwards;
+  }
+  
+  .flex2 {
+    padding: 7vw;
+    transform: translateX(70vw);
+    color: rgb(252, 252, 252);
+    background-color: rgba(81, 139, 246, 0.346);
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 5px;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Drop2 1.5s ease-in-out 1.5s forwards;
+  }
+  
+  .flex3 {
+    padding: 7vw;
+    transform: translateX(70vw);
+    color: white;
+    background-color: rgba(246, 81, 161, 0.346);
+    display: flex;
+    border: 2px solid rgb(254, 255, 254);
+    border-radius: 5px;
+    width: 15vw;
+    height: 15vw;
+    justify-content: center;
+    align-items: center;
+    animation: Drop3 1.5ss ease-in-out 1.5s forwards;
+  }
+
+  @keyframes Drop1 {
+    0% {
+      
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes Drop2 {
+    0% {
+    }
+    
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+  @keyframes Drop3 {
+    0% {
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
